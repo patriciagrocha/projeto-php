@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  background-color: aquamarine;
+  text-align: center;
+  padding: 1rem;
+}
+h2{
+  text-align: center;
+  font-size: 2rem;
+}
+
+nav {
+  background-color: aquamarine;
+  justify-content: center;
+  padding: .5rem;
+  display: flex;
+  gap: 1rem; 
+}
+a{
+  padding: 4px;
+  color: #000000;
+  
+}
+a:hover{
+  background-color: rgba(148, 230, 185, 0.382);
+  border-radius: 4px;
+}
+main{
+  width: 70%;
+  margin: auto;
+  min-height: 100vh; 
+  align-items: center; 
+  padding: 2rem 0;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1.5rem 0;  
+}
+div{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.img-home{
+  width: 14rem;
+  height: 10rem;
+}
+.img-quem-somos{
+  margin: auto;
+}
+.img-clientes{
+  width: 400px;
+  margin: auto;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+  border: 1px solid rgb(159, 156, 156);
+  width: 40%;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+}
+.input-form{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-size: .8rem;
+}
+.input-form-select{
+  font-size: .8rem;
+  margin-top: 1rem;
+}
+
+button{
+  width: 200px;
+  background-color: #04b504;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  padding: 4px;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+footer{
+  background-color: aquamarine;
+  padding: 1rem;
+}
